@@ -87,22 +87,34 @@ h4 {
 </style>
 
 <script setup>
-import linkedin from '/src/assets/linkedin_icon.svg';
-import instagram from '/src/assets/instagram_icon.svg';
-import github from '/src/assets/github_icon.svg';
-import curriculum from '/src/assets/cv_resume_icon.svg';
+import linkedin from "/src/assets/linkedin_icon.svg";
+import instagram from "/src/assets/instagram_icon.svg";
+import github from "/src/assets/github_icon.svg";
+import curriculum from "/src/assets/cv_resume_icon.svg";
 
-const title = 'Gimenez Cristian';
-const descripcion = 'Estudiante de la Técnicatura Universitaria en Programación - UTN';
-const residencia = 'Parana, Entre Ríos, Argentina';
-const presentacion = '¡Bienvenido a mi portafolio de proyectos! Soy estudiante de desarrollo web y aplicaciones digitales. Me apasiona el aprendizaje continuo y explorar los diversos lenguajes de programación para crear soluciones innovadoras. Te invito a descubrir mi trabajo y los proyectos en los que he estado trabajando.';
+const title = "Gimenez Cristian";
+const descripcion =
+  "Estudiante de la Técnicatura Universitaria en Programación - UTN";
+const residencia = "Parana, Entre Ríos, Argentina";
+const presentacion =
+  "¡Bienvenido a mi portafolio de proyectos! Soy estudiante de desarrollo web y aplicaciones digitales. Me apasiona el aprendizaje continuo y explorar los diversos lenguajes de programación para crear soluciones innovadoras. Te invito a descubrir mi trabajo y los proyectos en los que he estado trabajando.";
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: linkedin , url: 'https://www.linkedin.com/in/gimenezcristian/' },
-  { id: 2, name: 'Instagram', src: instagram , url: 'https://www.instagram.com/gimenezcristian/' },
-  { id: 3, name: 'github', src: github, url: 'https://github.com/GimenezCristian' },
-  { id: 4, name: 'curriculum', src: curriculum, url: '' },
+  {
+    id: 1,
+    name: "linkedin",
+    src: linkedin,
+    url: "https://www.linkedin.com/in/cristiangimenez/",
+  },
+  { id: 2, name: "Instagram", src: instagram, url: "" },
+  {
+    id: 3,
+    name: "github",
+    src: github,
+    url: "https://github.com/GimenezCristian",
+  },
+  { id: 4, name: "curriculum", src: curriculum, url: "" },
 ];
-const telefono = '343-4523081';
+const telefono = "343-4523081";
 </script>
 
 <template>
